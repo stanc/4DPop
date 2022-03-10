@@ -33,7 +33,7 @@ Function close()
 	
 	//======================================================================
 Function get($key : Text)->$value
-	
+	var $node : Text
 	
 	If ($key="version")
 		
